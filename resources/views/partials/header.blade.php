@@ -2,6 +2,7 @@
     <div class="container">
         <div class="row-mc">
             <img class="logo" src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="">
+
             <ul class="">
                 <li>
                     <a href="#">
