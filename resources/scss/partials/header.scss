@@ -1,0 +1,45 @@
+li {
+    color: black;
+    list-style-type: none;
+    padding: 50px 10px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-bottom: 5px solid transparent;
+}
+
+a {
+    color: black;
+}
+
+.logo {
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.row-mc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+li:hover {
+    border-bottom-color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+    margin-block: 0;
+}
