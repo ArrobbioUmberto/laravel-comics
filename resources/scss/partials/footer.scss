@@ -1,0 +1,31 @@
+li {
+    color: white;
+    list-style-type: none;
+    padding: 50px 10px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-bottom: 5px solid transparent;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+    margin-block: 0;
+}
+
+footer {
+    background-color: black;
+}
+
+.logo {
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.row-mc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
